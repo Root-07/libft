@@ -17,7 +17,7 @@ Libft est une bibliothèque standard personnalisée en C, créée dans le cadre 
 
 Pour compiler la bibliothèque, clonez ce dépôt et exécutez les commandes suivantes :
 
-```sh
+
 git clone https://github.com/ael-amin/libft.git
 cd libft
 make
