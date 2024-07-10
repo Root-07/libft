@@ -17,17 +17,17 @@ Libft est une bibliothèque standard personnalisée en C, créée dans le cadre 
 
 Pour compiler la bibliothèque, clonez ce dépôt et exécutez les commandes suivantes :
 
-
+```sh
 git clone https://github.com/ael-amin/libft.git
 cd libft
 make
----
+```
 
 Cette commande génèrera un fichier `libft.a` que vous pouvez inclure dans vos projets C.
 
 ## Fonctions incluses
 
-## Fonctions de la libc
+###  Fonctions de la libc
 - `ft_memset` : Remplit une zone mémoire avec un octet donné.
 - `ft_bzero` : Met à zéro une zone mémoire.
 - `ft_memcpy` : Copie une zone mémoire vers une autre.
@@ -51,7 +51,7 @@ Cette commande génèrera un fichier `libft.a` que vous pouvez inclure dans vos 
 - `ft_toupper` : Convertit une lettre minuscule en majuscule.
 - `ft_tolower` : Convertit une lettre majuscule en minuscule.
 
-## Fonctions supplémentaires
+### Fonctions supplémentaires
 - `ft_substr` : Extrait une sous-chaîne d'une chaîne de caractères.
 - `ft_strjoin` : Concatène deux chaînes de caractères.
 - `ft_strtrim` : Supprime les caractères donnés au début et à la fin d'une chaîne de caractères.
@@ -63,7 +63,7 @@ Cette commande génèrera un fichier `libft.a` que vous pouvez inclure dans vos 
 - `ft_putendl_fd` : Écrit une chaîne de caractères suivie d'un retour à la ligne dans un fichier.
 - `ft_putnbr_fd` : Écrit un entier dans un fichier.
 
-## Fonctions de gestion des listes chaînées
+### Fonctions de gestion des listes chaînées
 - `ft_lstnew` : Crée un nouvel élément de liste chaînée.
 - `ft_lstadd_front` : Ajoute un élément au début de la liste.
 - `ft_lstsize` : Calcule la taille d'une liste chaînée.
@@ -73,7 +73,6 @@ Cette commande génèrera un fichier `libft.a` que vous pouvez inclure dans vos 
 - `ft_lstclear` : Supprime et libère tous les éléments de la liste.
 - `ft_lstiter` : Applique une fonction à chaque élément de la liste.
 - `ft_lstmap` : Applique une fonction à chaque élément de la liste et crée une nouvelle liste.
----
 
 ## Utilisation
 
@@ -102,7 +101,7 @@ fclean: clean
 re: fclean all
 
 .PHONY: all clean fclean re
----
+```
 
 ## Tests
 
